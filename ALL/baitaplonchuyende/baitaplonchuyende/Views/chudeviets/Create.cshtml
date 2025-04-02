@@ -1,0 +1,93 @@
+﻿@model baitaplonchuyende.Models.chudeviet
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_admin.cshtml";
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .create-container {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 0px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px; /* Mở rộng chiều rộng */
+        margin: 20px auto; /* Canh giữa */
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .form-horizontal {
+        margin-top: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+        color: #555; /* Màu chữ cho nhãn */
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border-radius: 4px;
+        background-color: #5cb85c; /* Màu xanh cho nút Create */
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #4cae4c; /* Màu khi hover */
+        }
+
+    .text-danger {
+        color: #d9534f; /* Màu đỏ cho thông báo lỗi */
+    }
+</style>
+
+<div class="create-container">
+    <h2>Tạo Mới Chủ Đề</h2>
+
+    @using (Html.BeginForm("Create", "chudeviets", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            
+            
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Tencd, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Tencd, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Tencd, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Tạo Mới" class="btn" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Quay về danh sách", "Index")
+    </div>
+</div>
+

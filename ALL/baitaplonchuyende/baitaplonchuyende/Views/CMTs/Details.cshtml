@@ -1,0 +1,83 @@
+﻿@model baitaplonchuyende.Models.CMT
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_admin.cshtml";
+}
+           
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+    .details-container {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px; 
+        margin: 20px auto; 
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .dl-horizontal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+        .dl-horizontal dt {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555; 
+        }
+        .dl-horizontal dd {
+            margin-bottom: 15px;
+            color: #333; 
+        }
+    .btn-link {
+        padding: 10px 15px;
+        border-radius: 4px;
+        background-color: #5bc0de; 
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 5px;
+    }
+        .btn-link:hover {
+            background-color: #31b0d5; 
+        }
+</style>
+
+<div class="details-container">
+    <h2>Chi Tiết</h2>
+
+    <div>
+
+        <dl class="dl-horizontal">
+            <dt>Người Dùng</dt>
+            <dd>
+                @Html.DisplayFor(model => model.AccUser.Name)
+            </dd>
+            <dt>Bai Viết</dt>
+            <dd>
+                @Html.DisplayFor(model => model.BaiDang.Tieude)
+            </dd>
+            <dt>Comment</dt>
+            <dd>
+                @Html.DisplayFor(model => model.CMT1)
+            </dd>           
+            <dt>Ngày Comment</dt>
+            <dd>
+                @Html.DisplayFor(model => model.Ngaycmt)
+            </dd>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.Mabai }, new { @class = "btn-link" }) |
+        @Html.ActionLink("Quay về danh sách", "Index", null, new { @class = "btn-link" })
+    </p>
+</div>

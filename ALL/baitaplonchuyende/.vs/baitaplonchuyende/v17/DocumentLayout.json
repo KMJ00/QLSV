@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Chuyende\\baitaplonchuyende\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|d:\\chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\controllers\\accuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\controllers\\accuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\menu\\baidangtheocd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\menu\\baidangtheocd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\baiviet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\baiviet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\menu\\catalogrymenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\menu\\catalogrymenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\models\\chudeviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\models\\chudeviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\controllers\\baidangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\controllers\\baidangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\baidangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\baidangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\shared\\_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\shared\\_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0026ACA-CA45-4105-9B27-4EBF72C346AF}|baitaplonchuyende\\baitaplonchuyende.csproj|solutionrelative:baitaplonchuyende\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccUsersController.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\AccUsersController.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Controllers\\AccUsersController.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\AccUsersController.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Controllers\\AccUsersController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:54:03.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:18:40.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Baiviet\\Index.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Baiviet\\Index.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Baiviet\\Index.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Baiviet\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T06:24:33.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CatalogryMenu.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Menu\\CatalogryMenu.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Menu\\CatalogryMenu.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Menu\\CatalogryMenu.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Menu\\CatalogryMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T05:01:45.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Models\\Model1.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Models\\Model1.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Models\\Model1.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Models\\Model1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T04:57:16.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "chudeviet.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Models\\chudeviet.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Models\\chudeviet.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Models\\chudeviet.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Models\\chudeviet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T04:51:44.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaivietController.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\BaivietController.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Controllers\\BaivietController.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\BaivietController.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Controllers\\BaivietController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T04:04:55.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Baidangtheocd.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Menu\\Baidangtheocd.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Menu\\Baidangtheocd.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Menu\\Baidangtheocd.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Menu\\Baidangtheocd.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T16:46:26.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:39:55.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\BaiDangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\BaiDangs\\Create.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\BaiDangs\\Create.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\BaiDangs\\Create.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T15:12:23.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaiDangsController.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\BaiDangsController.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Controllers\\BaiDangsController.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\BaiDangsController.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Controllers\\BaiDangsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:11:13.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CVsController.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\CVsController.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Controllers\\CVsController.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\CVsController.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Controllers\\CVsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:11:09.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKMAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:24:47.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:24:14.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_admin.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_admin.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Shared\\_admin.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_admin.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Shared\\_admin.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:23:50.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_user.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_user.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Shared\\_user.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_user.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Shared\\_user.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:23:48.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "baitaplonchuyende\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:23:43.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "baitaplonchuyende\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Chuyende\\baitaplonchuyende\\baitaplonchuyende\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "baitaplonchuyende\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:20:46.21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

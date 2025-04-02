@@ -1,0 +1,56 @@
+﻿@model IEnumerable<baitaplonchuyende.Models.AccUser>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_user.cshtml";
+}
+
+
+<div class="course-area pt--120">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="section-title-style2 black-title title-tb text-center">
+
+                </div>
+            </div>
+        </div>
+        <div class="commn-carousel owl-carousel card-deck">
+            @foreach (var item in Model)
+            {
+                var imagePath = Url.Content($"~/Content/anh/{item.Anh}");
+                <div class="card mb-5">
+                    <div class="course-thumb">
+                        <img src="@imagePath" alt="image" />
+                    </div>
+                    <div class="card-body p-25">
+                        <div class="course-meta-title mb-4">
+                            <div class="course-meta-text">
+                                <h4>
+                                    <a href="@Url.Action("Details", "Giangvien", new { id = item.ID })">
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </a>
+                                </h4>
+                                <ul class="course-meta-stats">
+                                    <li>
+                                        @for (int i = 0; i < 5; i++)
+                                        {
+                                            <i class="fa @(i < 4 ? "fa-star" : "fa-star-half")"></i>
+                                        }
+                                    </li>
+                                    <li>36 <i class="fa fa-comment"></i></li>
+                                    <li>85 <i class="fa fa-heart"></i></li>
+                                </ul>
+                            </div>
+                            <a href="">
+                                <img class="course-meta-thumbnail rounded-circle" src="@imagePath" alt="image" />
+                            </a>
+                        </div>
+                        <p>@Html.DisplayFor(modelItem => item.SDT)</p> <!-- Hiển thị SDT -->
+                        <p>@Html.DisplayFor(modelItem => item.GT)</p>  <!-- Hiển thị GT -->
+
+                    </div><!-- card-body -->
+                </div><!-- card -->
+            }
+        </div><!-- commn-carousel -->
+    </div><!-- container -->
+</div><!-- course-area -->

@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "~/Views/Shared/_user.cshtml";
+}
+@model IEnumerable<baitaplonchuyende.Models.BaiDang>
+
+<div class="course-area pt--120">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="section-title-style2 black-title title-tb text-center">
+                    <h2 class="primary-color">Bài Viết</h2>
+                </div>
+            </div>
+        </div>
+        <div class="commn-carousel owl-carousel card-deck">
+            @if (Model.Any())
+            {
+                foreach (var baiDang in Model)
+                {
+                    <div class="card mb-5">
+                        <div class="course-thumb">
+                            <a href="@Url.Action("Details", "Baiviet", new { id = baiDang.Mabai })">
+                                <img src="@Url.Content($"~/Content/anh/{baiDang.Anh}")" width="215" height="280" alt="@baiDang.Tieude" />
+                            </a>
+                        </div>
+                        <div class="card-body p-25">
+                            <h4>
+                                <a href="@Url.Action("Details", "Baiviet", new { id = baiDang.Mabai })">@Html.DisplayFor(modelItem => baiDang.Tieude)</a>
+                            </h4>
+                            <p>@Html.DisplayFor(modelItem => baiDang.Mota)</p>
+                        </div><!-- card-body -->
+                    </div><!-- card -->
+                }
+            }   
+            else
+            {
+                <p class="text-center">Không có bài đăng nào phù hợp với tiêu chí tìm kiếm.</p>
+            }
+        </div><!-- commn-carousel -->
+    </div><!-- container -->
+</div><!-- course-area -->

@@ -1,0 +1,95 @@
+﻿@model baitaplonchuyende.Models.BaiDang
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_admin.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .delete-container {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px; /* Mở rộng chiều rộng */
+        margin: 20px auto; /* Canh giữa */
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    h3 {
+        text-align: center;
+        color: #d9534f; /* Màu đỏ cho thông báo xóa */
+    }
+
+    .dl-horizontal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+        .dl-horizontal dt {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555; /* Thay đổi màu chữ */
+        }
+
+        .dl-horizontal dd {
+            margin-bottom: 15px;
+            color: #333; /* Thay đổi màu chữ */
+        }
+
+    .form-actions {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border-radius: 4px;
+        background-color: #d9534f; /* Màu đỏ cho nút Delete */
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .btn:hover {
+            background-color: #c9302c; /* Màu khi hover */
+        }
+
+    .btn-link {
+        margin-left: 10px;
+        color: #5bc0de; /* Màu xanh cho nút Back */
+        text-decoration: none;
+    }
+
+        .btn-link:hover {
+            color: #31b0d5; /* Màu khi hover */
+        }
+</style>
+
+<div class="delete-container">
+    <h2>Xóa</h2>
+    <h3>Bạn có chắc chắn muốn xóa  @Html.DisplayFor(model => model.Tieude) không?</h3>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions">
+                <input type="submit" value="Xóa" class="btn" /> |
+                @Html.ActionLink("Quay về danh sách", "Index", null, new { @class = "btn-link" })
+            </div>
+        }
+    </div>
+

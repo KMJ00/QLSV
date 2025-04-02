@@ -1,0 +1,34 @@
+﻿@model baitaplonchuyende.Models.AccUser
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_user.cshtml";
+}
+
+<div class="teacher-details pt--120 pb--60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="tch-left-thumb">
+                    <img src="@Url.Content($"~/Content/anh/{Model.Anh}")" alt="@Model.Name" />
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="teacher-content pl-5 pb-5">
+                    <h3>@Html.DisplayFor(model => model.Name)</h3>
+                    <span>@Html.DisplayFor(model => model.CV.CV1)</span><br />
+                    <span>@Html.DisplayFor(model => model.GT)</span><br>
+                    <span>@Html.DisplayFor(model => model.SDT)</span>
+
+
+                    <ul class="list-inline mt-4 mb-4">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-deviantart"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>

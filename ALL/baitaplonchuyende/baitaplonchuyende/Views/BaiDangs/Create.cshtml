@@ -1,0 +1,128 @@
+﻿@model baitaplonchuyende.Models.BaiDang
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_admin.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .form-container {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .form-horizontal {
+        margin-top: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border-radius: 4px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #5cb85c;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #4cae4c;
+        }
+
+    .text-danger {
+        color: #d9534f;
+    }
+</style>
+
+<div class="form-container">
+    <h2>Tạo Mới Bài Đăng</h2>
+
+    @using (Html.BeginForm("Create", "BaiDangs", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Tieude, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Tieude, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Tieude, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Matg, "Tác Giả", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("Matg", null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Matg, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Macd, "Chủ Đề", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("Macd", null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Macd, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Mota, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(model => model.Mota, new { @class = "form-control", rows = 4 })
+                    @Html.ValidationMessageFor(model => model.Mota, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Ngaycapnhat, "Ngày Cập Nhật", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Ngaycapnhat, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Ngaycapnhat, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Mand, "Nội Dung", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("Mand", null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Mand, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ufile" class="control-label col-md-2">Chọn ảnh</label>
+                <div class="col-md-10">
+                    <input name="ImageFile" id="ufile" type="file" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Tạo Mới" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    }
+    <div>
+        @Html.ActionLink("Quay về danh sách", "Index")
+    </div>
+</div>
